@@ -26,12 +26,15 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        padding: 0 1rem;
+        padding: 0 0 0 1rem;
         border-left: 1px solid var(--gray-100);
 
         span {
             width: 100%;
-            font-size: 0.8rem;
+            color: var(--dark-mode-color);
+            font-size: 0.65rem;
+            font-weight: 500;
+            text-transform: capitalize;
             margin-bottom: 0.5rem;
         }
 

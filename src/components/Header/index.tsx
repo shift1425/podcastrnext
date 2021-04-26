@@ -31,9 +31,11 @@ export function Header() {
         <Switch
           onChange={handleChange}
           checked={checked}
-          height={20}
-          width={50}
+          height={16}
+          width={40}
+          handleDiameter={10}
           onColor={"#8257E5"}
+          activeBoxShadow={'0 0 2px 3px #04d361'}
           className={styles.switch}
         ></Switch>
       </div>

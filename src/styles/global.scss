@@ -19,6 +19,8 @@
     --purple-400: #9164FA;
     --purple-500: #8257E5;
     --purple-800: #6F48C9;
+
+    --dark-mode-color: #000;
 }
 
 .dark-mode:root {
@@ -33,6 +35,7 @@
     --purple-400: #9164FA;
     --purple-500: #8257E5;
     --purple-800: #6F48C9;
+    --dark-mode-color: #FFF;
 }
 
 @media (min-width: 1080px) {
